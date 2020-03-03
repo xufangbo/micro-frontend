@@ -9,18 +9,18 @@ import Layout from './layout';
 
 @observer
 export default class Main extends Component<any, any> {
-  componentDidCatch(error, info) {
-    console.log(error);
-  }
+    componentDidCatch(error, info) {
+        console.log(error);
+    }
 
-  render() {
-    console.log(this.props.mainStore);
-    return (
-      <Provider baseStore={this.props.mainStore}>
-        <Layout />
-        {/* <LocaleProvider locale={zh_CN}>
+    render() {
+        console.log(this.props.mainStore);
+        return (
+            <Provider baseStore={this.props.mainStore}>
+                <Layout />
+                {/* <LocaleProvider locale={zh_CN}>
         </LocaleProvider> */}
-      </Provider>
-    );
-  }
+            </Provider>
+        );
+    }
 }

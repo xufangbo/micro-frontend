@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "webpack-dev-server --port 9000",
+    "start": "webpack-dev-server --port 8000",
     "build": "webpack -p --progress"
   },
   "author": "chenLong",

@@ -9,7 +9,7 @@ module.exports = {
     portal: './src/portal.js'
   },
   output: {
-    publicPath: 'http://localhost:9000/',
+    publicPath: 'http://localhost:8000/',
     filename: '[name].js',
     path: path.resolve(__dirname, 'release')
   },

@@ -16,7 +16,7 @@ module.exports = {
 
   output: {
     filename: '[name].js',
-    publicPath: 'http://localhost:9001/',
+    publicPath: 'http://localhost:8001/',
     path: path.resolve(__dirname, 'release'),
     libraryTarget: 'amd',
     library: 'main'

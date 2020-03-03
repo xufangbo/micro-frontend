@@ -14,7 +14,7 @@ module.exports = {
   },
 
   output: {
-    publicPath: 'http://localhost:9002/',
+    publicPath: 'http://localhost:8002/',
     filename: '[name].js',
     chunkFilename: '[name].[chunkhash:8].js',
     path: path.resolve(__dirname, 'release'),
@@ -135,7 +135,7 @@ module.exports = {
     new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /zh-cn/)
   ],
   devServer: {
-    port: 9002,
+    port: 8002,
     host: '0.0.0.0',
     contentBase: './release',
     inline: true,
